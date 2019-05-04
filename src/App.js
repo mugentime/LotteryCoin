@@ -34,7 +34,7 @@ class App extends Component {
 
         const winners = await lottery.methods.get_winners(this.state.winnerLength).call();
 
-      
+
 
         // const balance = await web3.eth.get_balance(lottery.options.address);
 
@@ -96,14 +96,14 @@ class App extends Component {
         <h1>
                 Forever Lottery
         </h1>
-        <h3> Contract Addres: 0xF8CcedC0F4298BEa79aEa0Fca3178d84C4d48338</h3>
+        <h3> Contract Addres: 0xce68d0b24871038a7d30f5A44773CA5C89b4e0FE</h3>
         <h3> Tickets remaining until next draw: {this.state.players_till_game}</h3>
         <h3> Tickets sold so far: {this.state.players}</h3>
         <p>
 
-            To win: {web3.utils.fromWei(this.state.balance, 'ether')/2} ether!</p>
+            To win: {web3.utils.fromWei(this.state.balance.toString(), 'ether')/2} ether!</p>
             <p>
-            Current ticket price: {web3.utils.fromWei(this.state.price)} ether!
+            Current ticket price: {web3.utils.fromWei(this.state.price.toString())} ether!
 
         </p>
         <hr />
