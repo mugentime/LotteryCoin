@@ -24,7 +24,7 @@ class App extends Component {
 
     async  componentDidMount() {
         const manager = '0xF8CcedC0F4298BEa79aEa0Fca3178d84C4d48338';
-        const players = await lottery.methods.get_playersasdf().call();
+        const players = await lottery.methods.get_players().call();
         const players_till_game = await lottery.methods.Tikets_till_game().call();
         const balance = await lottery.methods.get_balance().call();
         const price = await lottery.methods.get_price().call();
