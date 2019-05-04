@@ -18,7 +18,7 @@ class App extends Component {
       players_till_game: '',
       winnerLength:'',
       winners:''
-    
+
 
     };
 
@@ -34,9 +34,7 @@ class App extends Component {
 
         const winners = await lottery.methods.get_winners(this.state.winnerLength).call();
 
-        // const winners2 = await lottery.methods.get_winners(4).call();
-        // const winners3 = await lottery.methods.get_winners(3).call();
-        // const winners4 = await lottery.methods.get_winners(2).call();
+      
 
         // const balance = await web3.eth.get_balance(lottery.options.address);
 
