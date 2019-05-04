@@ -18,9 +18,7 @@ class App extends Component {
       players_till_game: '',
       winnerLength:'',
       winners:''
-      // winners2:'',
-      // winners3:'',
-      // winners4:'',
+    
 
     };
 
