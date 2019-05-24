@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/LotteryCoin/static/js/runtime~main.3a28495f.js"
   },
   {
-    "revision": "a87cf65dd37d58a1d132",
-    "url": "/LotteryCoin/static/js/main.ec45865a.chunk.js"
+    "revision": "d7283864032c6a67fc70",
+    "url": "/LotteryCoin/static/js/main.d1e12776.chunk.js"
   },
   {
     "revision": "d0a3947a161f22736664",
     "url": "/LotteryCoin/static/js/2.63ca57ba.chunk.js"
   },
   {
-    "revision": "a87cf65dd37d58a1d132",
+    "revision": "d7283864032c6a67fc70",
     "url": "/LotteryCoin/static/css/main.e3d9634d.chunk.css"
   },
   {
-    "revision": "1569760032364608a173b2ef384a02c7",
+    "revision": "a0bc90689e5e0a1d643e0d95eb5a6f39",
     "url": "/LotteryCoin/index.html"
   }
 ];
