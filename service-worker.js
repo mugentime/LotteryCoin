@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/LotteryCoin/precache-manifest.8d4602d06ebdedf631b0669d765a2f5a.js"
+  "/LotteryCoin/precache-manifest.99803fba9be2b40a7f5d11fea0bb73eb.js"
 );
 
 workbox.clientsClaim();
